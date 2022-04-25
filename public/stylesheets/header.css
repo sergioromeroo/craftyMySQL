@@ -1,0 +1,43 @@
+header{
+    background-color: #DF5837;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li{
+    margin-right: 10px;
+}
+
+header ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+header .btn-cart{
+    border: 0;
+    background: none;
+    margin-right: 15px;
+    position: relative;
+  }
+header .btn-cart i{
+    font-size: 40px;
+  }
+header .btn-cart span{
+    font-size: 16px;
+    position: absolute;
+    top:2px;
+    right: -4px;
+  }
